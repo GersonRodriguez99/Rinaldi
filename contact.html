@@ -17,6 +17,38 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <link href="src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="lib/jquery.js" type="text/javascript"></script>
+  <script src="src/facebox.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function($) {
+      $('a[rel*=facebox]').facebox({
+        loadingImage : 'src/loading.gif',
+        closeImage   : 'src/closelabel.png'
+      })
+    })
+  </script>
+
+
+    <script type="text/javascript">
+      function validateForm()
+      {
+      var x=document.forms["contact-form"]["name"].value;
+      if (x==null || x=="")
+        {
+        alert("name necesita ser llenado");
+        return false;
+        }
+        
+      var x=document.forms["contact-form"]["mail"].value;
+      if (x==null || x=="")
+        {
+        alert("mail necesita ser llenado");
+        return false;
+        }
+      }
+      </script>
   </head>
 
   <body>
@@ -167,6 +199,7 @@
             name="contact-form"
             action="mail.php"
             method="POST"
+            onsubmit="return validateForm()">
           >
             <!--Grid row-->
             <div class="row">
