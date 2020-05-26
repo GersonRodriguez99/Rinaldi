@@ -178,7 +178,7 @@ li {
 
 p {
   line-height: 1.9;
-  color: #636363;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1515,7 +1515,7 @@ input:required {
 }
 .post-author-area .post-social-info a {
   display: inline-block;
-  color: #625b66;
+  color: #f8f8f8;
   margin-right: 20px;
   font-size: 14px;
 }
@@ -1731,7 +1731,7 @@ input:required {
   display: block;
   margin-bottom: 5px;
   font-weight: 300;
-  color: #b2b2b2;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 .comment_area .comment-content .comment-meta .post-date:hover,
@@ -1748,7 +1748,7 @@ input:required {
   }
 }
 .comment_area .comment-content .comment-meta p {
-  color: #636363;
+  color: #ffffff;
   font-size: 14px;
 }
 @media only screen and (max-width: 767px) {
@@ -2178,7 +2178,7 @@ input:required {
   height: 50px;
   padding: 0 20px;
   border-radius: 2px;
-  color: #afb4bf;
+  color: #ffffff;
   font-size: 14px;
   border: 1px solid #ebebeb;
 }
@@ -2232,23 +2232,23 @@ input:required {
 }
 
 /* Podemos eliminar este estilo si no queremos que se adapte al ancho máximo */
-.delimitador{
-  width:560px;    /* Ancho máximo */
-  margin:auto;    /* Centramos el vídeo */
+.delimitador {
+  width: 560px; /* Ancho máximo */
+  margin: auto; /* Centramos el vídeo */
 }
 /* El contenedor con el padding-top crea el tamaño del vídeo */
-.contenedor{
-  height:0px;
-  width:100%;
-  padding-top:56.25%; /* Relación: 16/9 = 56.25% */
-  position:relative;
+.contenedor {
+  height: 0px;
+  width: 100%;
+  padding-top: 56.25%; /* Relación: 16/9 = 56.25% */
+  position: relative;
 }
 /* El iframe se adapta al tamaño del contenedor */
-.contenedor iframe{
-  position:absolute;
-  height:100%;
-  width:100%;
-  top:0px;
-  left:0px;
+.contenedor iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 /*# sourceMappingURL=style.css.map */
