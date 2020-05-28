@@ -1934,7 +1934,7 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #ffffff;
+  background-color: #5f5f5f;
 }
 .team-content-area .member-thumb {
   margin: 0 auto 40px;
