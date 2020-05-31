@@ -606,7 +606,7 @@ input:required {
   text-transform: capitalize;
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid #fc6060;
+  border: 2px solid #ff6a6a;
   border-radius: 60px;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -614,13 +614,31 @@ input:required {
 }
 .alime-btn.btn-2 {
   color: #252525;
+  position: relative;
+  z-index: 1;
+  min-width: 160px;
+  height: 46px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #ff6a6a;
+  color: #ffffff;
+  border: 0px solid #ff6a6a;
+  border-radius: 60px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 .alime-btn:focus,
 .alime-btn:hover {
   font-weight: 500;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-  background-color: #fc6060;
+  background-color: #d41111;
   color: #ffffff;
 }
 
@@ -731,6 +749,8 @@ input:required {
   transition-duration: 500ms;
   height: 70px;
   padding: 0;
+  margin-left: 0;
+  position: relative;
 }
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .nav-brand {
@@ -743,7 +763,7 @@ input:required {
   text-transform: capitalize;
   color: #ffffff;
   font-weight: 500;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .classy-nav-container .classy-navbar .classynav ul li a:hover,
 .classy-nav-container .classy-navbar .classynav ul li a:focus {
@@ -1047,6 +1067,30 @@ input:required {
     width: auto;
   }
 }
+.header-content {
+  height: auto;
+  width: auto;
+  float: right;
+}
+.header-content .social-info a {
+  color: #fc6060;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.header-content .social-info a:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 767px) {
+  .header-content .social-info a {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+.header-content .social-info a:hover,
+.header-content .social-info a:focus {
+  color: #fc6060;
+}
+
 .footer-content .social-info a {
   color: #fc6060;
   font-size: 16px;
@@ -1934,7 +1978,7 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color:#fff;
+  background-color: #fff;
 }
 .team-content-area .member-thumb {
   margin: 0 auto 40px;
@@ -2251,10 +2295,10 @@ input:required {
   top: 0px;
   left: 0px;
 }
-.blacktitle{
-    color: #fff;
+.blacktitle {
+  color: #fff;
 }
-.orangetitle{
-  color:#fc6060;
+.orangetitle {
+  color: #fc6060;
 }
 /*# sourceMappingURL=style.css.map */
