@@ -777,7 +777,7 @@ input:required {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     font-size: 14px;
-    color: #252525;
+    color: #ffffff;
   }
   .classy-nav-container .classy-navbar .classynav ul li a:hover,
   .classy-nav-container .classy-navbar .classynav ul li a:focus {
@@ -787,7 +787,7 @@ input:required {
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     font-size: 14px;
-    color: #252525;
+    color: #ffffff;
   }
   .classy-nav-container .classy-navbar .classynav ul li a:hover,
   .classy-nav-container .classy-navbar .classynav ul li a:focus {
@@ -859,6 +859,7 @@ input:required {
     display: none;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .classynav ul li.active a::before {
     display: none;
