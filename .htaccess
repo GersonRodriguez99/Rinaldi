@@ -1,3 +1,7 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.rinaldimolina.com [NC]
+RewriteRule (.*) https://rinaldimolina.com/$1 [R=301,L,QSA]
